@@ -27,3 +27,5 @@ Código paralelizado:
 Tempo de execução: 391.47 segundos
 
 Um speedup de aproximadamente 1,91 indica que a versão paralelizada do código executou a tarefa quase 1,91 vezes mais rápido do que a versão sequencial. Em outras palavras, a paralelização proporcionou uma redução de tempo de cerca de 48,7%.
+
+Estes dois tempos foram feitos com uma base de apenas 3 anos de arquivos.
