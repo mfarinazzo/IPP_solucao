@@ -18,3 +18,12 @@ A implementação do Dask trouxe várias vantagens para o processamento dos arqu
 Outra vantagem importante foi a facilidade de implementação. Diferentemente do MPI, que exige um conhecimento mais aprofundado sobre comunicação entre processos, o Dask permitiu que a paralelização fosse implementada com modificações mínimas no código original. Isso foi especialmente benéfico no contexto acadêmico, onde o foco é mais na análise dos dados do que na complexidade da infraestrutura de paralelização.
 
 Além disso, Dask ofereceu uma maior flexibilidade e escalabilidade. Caso o número de arquivos aumentasse ou os recursos de hardware fossem ampliados, a configuração do cluster poderia ser facilmente ajustada para aproveitar os novos recursos sem a necessidade de reescrever o código.
+
+# SPEED UP
+Código comum:
+Tempo de execução: 748.59 segundos
+
+Código paralelizado:
+Tempo de execução: 391.47 segundos
+
+Um speedup de aproximadamente 1,91 indica que a versão paralelizada do código executou a tarefa quase 1,91 vezes mais rápido do que a versão sequencial. Em outras palavras, a paralelização proporcionou uma redução de tempo de cerca de 48,7%.
